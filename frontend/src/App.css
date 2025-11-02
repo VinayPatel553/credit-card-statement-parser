@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* App.css */
+.hero-section {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.upload-zone {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.upload-zone:hover {
+  border-color: #0d6efd !important;
+  background-color: #f8f9fa;
+}
+
+.result-card {
+  transition: transform 0.2s;
+}
+
+.result-card:hover {
+  transform: translateY(-4px);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Base Layout */
+body {
+  background: #f4f7fb;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #333;
+}
+
+/* Hero Header */
+.hero-section {
+  background: linear-gradient(135deg, #007bff 0%, #6610f2 100%);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Content Container */
+.content-area {
+  background: #fff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Form */
+form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e3e6ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Cards */
+.card {
+  border-radius: 12px !important;
+  background: linear-gradient(135deg, #ffffff, #f9f9ff);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+  color: #6c757d;
+  font-weight: 600;
+}
+
+/* Badges */
+.badge.bg-primary {
+  background: linear-gradient(135deg, #007bff, #0056d2);
+  font-size: 1rem;
+  padding: 0.5em 0.8em;
+}
+
+.badge.bg-secondary {
+  background: #adb5bd;
+}
+
+/* Buttons */
+button.btn-primary, 
+button.btn-outline-primary {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
